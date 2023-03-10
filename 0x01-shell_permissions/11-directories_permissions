@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 354 d*/h
+chmod 711 d*/h
