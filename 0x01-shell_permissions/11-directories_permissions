@@ -1,2 +1,2 @@
-#!/bin/bash
-chmod 755 d*/h
+#!/bin/ba
+chmod -R a+X d*/h
