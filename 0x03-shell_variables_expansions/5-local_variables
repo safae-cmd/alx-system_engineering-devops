@@ -1,2 +1,2 @@
 #!/bin/bash
-set built-in
+declare -p
