@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM | ' ' '\n'
+echo $NUM | tr ' ' '\n'
