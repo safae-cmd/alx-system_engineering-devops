@@ -1,2 +1,2 @@
 #!/bin/bash
-expr $BREATH^$LOVE | tr ' ' '\n'
+echo $(($BREATH^$LOVE)) | tr ' ' '\n'
