@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a,b} - {0,0}
+echo {a,z}-{a,z}
