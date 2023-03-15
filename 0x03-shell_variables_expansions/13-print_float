@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e $NUM \n
+echo $NUM | ' ' '\n'
