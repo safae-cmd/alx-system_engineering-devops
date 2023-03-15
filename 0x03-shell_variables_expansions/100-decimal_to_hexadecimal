@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((16#$DECIMAL)) | tr ' ' '\n'
+echo -e $((10#$DECIMAL))
