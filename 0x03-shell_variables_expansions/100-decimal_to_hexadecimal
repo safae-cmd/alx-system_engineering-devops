@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e $((9#$DECIMAL))
+echo -e $((2#$DECIMAL))
