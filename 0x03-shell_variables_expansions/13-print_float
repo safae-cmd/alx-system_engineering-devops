@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM | tr ' ' '\n'
+echo \%0.2$NUM | tr ' ' '\n'
