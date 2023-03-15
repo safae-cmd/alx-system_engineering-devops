@@ -1,2 +1,2 @@
 #!/bin/bash
-$((i++ % 2)) -eq 0
+paste - - | cut -f1
