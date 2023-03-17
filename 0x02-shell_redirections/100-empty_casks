@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR -1 | find . -empty -type f -o type d -printf "%P\n"
+ls -laR -1 | find . -empty | rev | cut -d '/' -f 1 | rev
