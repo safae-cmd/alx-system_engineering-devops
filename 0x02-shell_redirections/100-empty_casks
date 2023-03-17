@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | find . -type f -o ".*" -empty -fprint("%f\n")
+ls -laR | find . -empty -printf "%s\n"
