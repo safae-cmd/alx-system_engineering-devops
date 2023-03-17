@@ -1,2 +1,2 @@
 #!/bin/bash
-cat An\ Acrostic | cut -c 1 
+cut -c 1 | paste -sd ''
