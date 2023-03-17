@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" | echo "${file%.*}" | sort -f -n -k 5
+find -type f -name "*.gif" | echo "${file%.*}" | sort -f 
