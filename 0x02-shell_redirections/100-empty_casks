@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | find . -empty | tr ' ' '\n'
+ls -lRa | find . -empty | printf("%f\n")
