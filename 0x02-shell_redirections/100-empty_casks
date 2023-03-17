@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | find . -empty -maxdepth 1 -printf "%p\n"
+ls -laR | find . -empty -maxdepth 1 -printf "%f\n"
